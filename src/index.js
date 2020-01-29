@@ -11,5 +11,4 @@ mongoose.connect('mongodb+srv://omnistack:omnistack@clusterph-8pjzg.mongodb.net/
 
 app.use(express.json());
 app.use(routes);
-
 app.listen(3333);
