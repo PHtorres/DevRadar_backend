@@ -16,7 +16,7 @@ module.exports = {
                         type: 'Point',
                         coordinates:[longitude, latitude]
                     },
-                    $maxDistance: 15000
+                    $maxDistance: 1500000
                 }
             }
         });
